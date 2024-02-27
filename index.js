@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-
+const path = require("path")
 const instance = new Razorpay({
   key_id: process.env.RAZORPAY_API_KEY,
   key_secret: process.env.RAZORPAY_API_SECRET,
@@ -42,7 +42,11 @@ app.post("/paymentverification", appointmentController.paymentVerification);
 app.get("/getkey", (req, res) =>
   res.status(200).json({ key: process.env.RAZORPAY_API_KEY })
 );
-
+// production script
+app.use(express.static("./frontend/build"));
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+})
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

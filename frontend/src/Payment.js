@@ -9,9 +9,9 @@ const Payment = () => {
 
   const checkoutHandler = async (amount) => {
     console.log(amount);
-    const { data: { key } } = await axios.get("http://www.localhost:4000/getkey")
+    const { data: { key } } = await axios.get("https://mernapp.azurewebsites.net/getkey")
 
-    const { data: { order } } = await axios.post("http://localhost:4000/checkout", {
+    const { data: { order } } = await axios.post("https://mernapp.azurewebsites.net/checkout", {
       amount
     })
     console.log(order, key);
