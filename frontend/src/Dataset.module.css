@@ -1,0 +1,129 @@
+.Drheader {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.Drheader h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 3rem;
+    color: rgb(3, 75, 139);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.dsouter {
+    /* height: calc(100vh - 10vh); */
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    flex-wrap: wrap;
+    padding: 5vw;
+}
+
+.about {
+    width: 45vw;
+    height: fit-content;
+    margin: 1vw auto;
+    padding: 2vw;
+    text-align: justify;
+    border-radius: 2rem;
+    background-color: rgb(255, 244, 230);
+}
+
+.dsbox {
+    height: 32vw;
+    width: 27vw;
+    min-width: 340px;
+    min-height: 440px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dsname {
+    font-size: 1.7vw;
+}
+
+.dsdes {
+    font-size: 1vw;
+    margin: 10px 0;
+    color: DarkOrange;
+}
+
+.btn1 {
+    font-size: 1vw;
+    margin-left: 3%;
+    background-color: white;
+    border: none;
+}
+
+.img {
+    width: 26vw;
+    height: 15vw;
+    min-width: 320px;
+    min-height: 190px;
+    margin-top: 3vw;
+}
+
+.btndiv {
+    padding: 13px;
+    width: 250px;
+    margin: auto;
+    border-radius: 1rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #6254F3;
+    color: white;
+    font-size: 15px;
+}
+
+.a {
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn {
+    bottom: 0;
+
+}
+
+@media (max-width:1240px) {
+    .dsdes {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:1026px) {
+    .Drheader h1 {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 1rem;
+
+    }
+
+    .dsname {
+        font-size: 25px;
+    }
+
+    .btn1 {
+        font-size: 15px;
+        margin-left: 3%;
+        background-color: white;
+        border: none;
+    }
+
+    .img {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,175 @@
+.Drheader {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.Drheader h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 3rem;
+    color: rgb(3, 75, 139);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.outerDr {
+    height: fit-content;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3.5vw;
+    row-gap: 10rem;
+    flex-wrap: wrap;
+    padding: 5vw 10px;
+}
+
+.Drbox {
+    height: 30vw;
+    width: 18vw;
+    min-height: 320px;
+    min-width: 220px;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: -5px -21px 83px -20px rgba(0, 0, 0, 0.45),
+        25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+        -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.Drimg {
+    height: 12vw;
+    width: 12vw;
+    margin: 1rem auto;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.img {
+    height: 12vw;
+    width: 12vw;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    /* box-shadow: -5px -21px 83px -20px rgba(0, 0, 0, 0.45),
+        25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+        -25px 0px 20px -20px rgba(0, 0, 0, 0.45); */
+}
+
+.vc {
+    color: green;
+    font-weight: 700;
+}
+
+.Drbox h1 {
+    font-size: 1vw;
+}
+
+
+.Drdes {
+    height: 7vw;
+    width: auto;
+    padding: 0.05vw 1vw;
+    margin-top: 0.3vw;
+    border-radius: 5%;
+}
+
+.Drdes p {
+    font-size: 0.9vw;
+    font-weight: 500;
+    margin: 0.5vw 0;
+}
+
+/* .btndiv {
+    height: 4vw;
+    width: auto;
+    background-color: rgb(69, 129, 182);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.drbtn {
+    padding: 12px;
+    width: 13vw;
+    border-radius: 1rem;
+    background-color: #6254F3;
+    border: none;
+    margin: auto;
+}
+
+.drbtnn {
+    font-size: 1.3vw;
+    font-weight: 200;
+    color: white;
+    background-color: #6254F3;
+}
+
+.btn {
+    border: none;
+}
+
+@media (max-width:1022px) {
+    .Drheader h1 {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 1rem;
+
+    }
+
+    .outerDr {
+        height: fit-content;
+        padding: 20px 30px;
+    }
+
+    .Drbox {
+        height: 320px;
+        width: 290px;
+    }
+
+    .Drimg,
+    .img {
+        min-height: 100px;
+        min-width: 100px;
+    }
+
+    .Drbox h1 {
+        font-size: 12px;
+    }
+
+
+
+    .Drdes {
+        height: 90px;
+        width: fit-contents;
+    }
+
+    .Drdes p {
+        font-size: 10px;
+        font-weight: 500;
+        /* margin: 8px; */
+    }
+
+    .drbtn {
+        padding: 10px;
+        width: 160px;
+    }
+
+    .drbtnn {
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+}

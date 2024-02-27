@@ -1,0 +1,104 @@
+.Drheader {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.Drheader h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 3rem;
+    color: rgb(3, 75, 139);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.headertm {
+    height: fit-content;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    padding-bottom: 30px;
+}
+
+.menber {
+    height: 20vw;
+    width: 18vw;
+    min-height: 230px;
+    min-width: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.img {
+    height: 10vw;
+    width: 10vw;
+    min-height: 90px;
+    min-width: 90px;
+    background-color: rgb(87, 69, 42);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.name {
+    margin: 1rem;
+}
+
+.socialicons {
+    height: 5vw;
+    width: inherit;
+    /* margin-top: 2vw; */
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2vw;
+}
+
+.icondiv {
+    height: 2.7vw;
+    width: 2.7vw;
+    min-height: 40px;
+    min-width: 40px;
+    border: 2px solid #3F5BB5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    font-size: 26px;
+    color: #3F5BB5;
+}
+
+@media (max-width:900px) {
+    .socialicons {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .headertm {
+        gap: 30px;
+    }
+
+    .icons {
+        font-size: 20px;
+        color: #3F5BB5;
+    }
+
+    .Drheader h1 {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 1rem;
+
+    }
+}

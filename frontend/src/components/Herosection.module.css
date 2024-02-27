@@ -1,0 +1,163 @@
+main {
+    /* width: 100%; */
+    height: calc(100vh - (10vh + 300px));
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2.5vw;
+}
+
+.box {
+    /* height: 60vh; */
+    width: 40vw;
+    /* min-width: 30rem; */
+    /* border: 2px solid red; */
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    /* background-color: azure; */
+}
+
+
+
+.cname {
+    font-size: 6vh;
+}
+
+span {
+    color: rgb(255, 140, 0);
+}
+
+.btn {
+    padding: 8px 45px;
+    border-radius: 0.6rem;
+    margin-top: 0.8vw;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #145CA1;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cdes {
+    /* margin-top: 2rem; */
+    font-size: 1.3vh;
+}
+
+.box2 {
+    align-items: center;
+}
+
+img {
+    height: 45vh;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1024px) {
+
+    img {
+        height: 250px;
+    }
+
+    .cname {
+        font-size: 5vw;
+    }
+
+}
+
+@media (max-width:768px) {
+    main {
+        flex-flow: column;
+        height: fit-content;
+    }
+
+    .box2 {
+        order: 1;
+        width: 66vw;
+    }
+
+    .box1 {
+        width: 90vw;
+        order: 2;
+    }
+}
+
+@media (max-width:540px) {
+
+    img {
+        width: 250px;
+    }
+
+    .cname {
+        font-size: 40px;
+    }
+
+    .btn {
+        margin-top: 2rem;
+
+    }
+
+    main {
+        gap: 60px;
+    }
+
+    .cdes {
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-height:657px) {
+    .box2 {
+        width: 60vh;
+        height: 40vh;
+        order: 1;
+    }
+
+    .box {
+        height: 40vh;
+    }
+
+    .box1 {
+        order: 2;
+    }
+
+
+
+    /* 
+    .cname {
+        font-size: 4vh;
+    } */
+
+    .btn {
+        padding: 6px 40px;
+        border-radius: 0.6rem;
+        margin-top: 10px;
+        text-decoration: none;
+        background-color: #145CA1;
+        color: white;
+    }
+}
+
+@media (min-height:826px) {
+    /* .box2 {
+        width: 60vh;
+        height: 40vh;
+    } */
+
+    /* .box {
+        height: 40vh;
+    }
+
+    .cname {
+        font-size: 8vh;
+    } */
+    .img {
+        height: 45vh;
+    }
+}

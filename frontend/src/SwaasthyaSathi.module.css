@@ -1,0 +1,111 @@
+.outerss {
+    /* height: 90vw; */
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headingss {
+    height: 5vw;
+    width: 35vw;
+    background-color: beige;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    height: 4vw;
+    width: 35vw;
+}
+
+
+.about {
+    width: 45vw;
+    height: fit-content;
+    margin: 1vw auto;
+    padding: 2vw;
+    text-align: justify;
+    border-radius: 2rem;
+    background-color: rgb(255, 244, 230);
+}
+
+.demoBookbtn {
+    height: 3vw;
+    width: 15vw;
+    background-color: #145CA1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.4vw;
+}
+
+.h1 {
+    font-size: 1.6vw;
+}
+
+.cabimg {
+    height: 34vw;
+    width: 60vw;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+@media (max-width:1026px) {
+    .headingss {
+        height: 3rem;
+        width: 22rem;
+    }
+
+    .about {
+        width: 25rem;
+    }
+
+    .cabimg {
+        height: 25rem;
+        width: 40rem;
+    }
+
+    .h1 {
+        font-size: 15px;
+    }
+
+    .demoBookbtn {
+        height: 35px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:670px) {
+    .headingss {
+        height: 3rem;
+        width: 20rem;
+    }
+
+    .about {
+        width: 22rem;
+        margin: 10px 0;
+    }
+
+    p {
+
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    .cabimg {
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .outerss {
+        height: fit-content;
+    }
+
+}

@@ -1,0 +1,134 @@
+.suouter {
+    height: 90vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv {
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.err {
+    color: red;
+}
+
+.box {
+    height: 30vw;
+    width: 25vw;
+}
+
+
+.right {
+    background-color: #fff;
+    padding-left: 1.1vw;
+    padding-top: 1.1vw;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-bottom: 0.1vw;
+}
+
+.input2 {
+    height: 1.7vw;
+    width: 17vw;
+    margin-bottom: 0.4vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+.loginbtn {
+    height: 2.9vw;
+    width: 17vw;
+    /* background-color: rgb(149, 149, 219); */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 2.3vw;
+    width: 7vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(71, 71, 234);
+}
+
+.p {
+    font-size: 1vw;
+    color: white;
+}
+
+.p2 {
+    font-size: 0.8vw;
+    padding-bottom: 5px;
+}
+
+.img {
+    height: 28vw;
+    width: 25vw;
+}
+
+@media (max-width:1022px) {
+    .left {
+        display: none;
+    }
+
+    .box {
+        height: 500px;
+        width: 300px;
+        padding: 20px;
+    }
+
+    .h1 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 6px;
+    }
+
+    .input2 {
+        height: 28px;
+        width: 250px;
+        margin-bottom: 3px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .loginbtn {
+        height: 65px;
+        width: 240px;
+        /* background-color: rgb(149, 149, 219); */
+        display: flex;
+        align-items: flex-end;
+        /* justify-content: space-between; */
+        gap: 40px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 170px;
+        border-radius: 10px;
+
+    }
+
+    .p {
+        font-size: 20px;
+        color: white;
+    }
+
+    .p2 {
+        font-size: 12px;
+    }
+}
